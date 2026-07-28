@@ -1,0 +1,241 @@
+mkdir Proyecto-1
+cd Proyecto-1
+echo ""> ClasificarAnimales.txt
+ git config --global --add directorio.seguro C:/
+git status+
+  git config --global --add safe.directory C:/
+on branch master
+git add ClasificarAnimales.txt
+git commit -m "feat: se ha agregado ClasificarAnimales a la rama master
+git brancj develop
+git branch salvajes
+git 
+git branch master
+git branch 
+git branmch develop
+git init+
+echo hola > Animales.txt
+echo Animales> clasificarAnimales.txt}
+git init git add . git commit -m "Inicio desde cero"
+rm -rf .git
+gti init
+cd C:\Proyecto-1
+echo "" > ClasificacionDeAnimales.txt
+git add ClasificacionDeAnimales.txt
+git commit -m "feat: se ha agregado ClasificacionDeAnimalesa a la rama master"
+ git config --global user.email "clopez-2021325@kinal.edu.gt"
+g --global user.name "Cristopher"
+git config --global user.name "Cristopher"
+λ git commit -m "feat: se ha agregado ClasificacionDeAnimalesa a la rama master"
+git branch develop
+Git branch
+Gir branch develop
+Git branch develop
+cdC:\ 
+cd C:\
+git clone https://github.com/josuejolon-2022205/ProyectoBIM1-DesarrolloPersonal.git
+cd C:\ProyectoBIM1-DesarrolloPersonal
+gti switch develop
+git add ft-Clopez-Entidades_Procedimientos_Triggers_Y_Funciones.sql
+git commit -m "feat:Envio las entidades y procedimientos de mis entidades, trigger y funciones"
+ce
+cd..
+cd C:\Users\crisl\OneDrive\Escritorio\ProyectoBIM1_DesarrolloColectivo-ft-clopez-2021325\ProyectoDesarrolloColectivo
+cd.. 
+https://github.com/josuejolon-2022205/ProyectoBIM1_DesarrolloColectivo.gitwedddddsd
+https://github.com/josuejolon-2022205/ProyectoBIM1_DesarrolloColectivo.githttps://github.com/josuejolon-2022205/ProyectoBIM1_DesarrolloColectivo.git
+wedwdaa      
+d
+gh auth login}
+cd C:\Nueva carpeta
+cd 
+cd C:\cmdr_mini rmdir /s /q ProyectoBIM1_DesarrolloColectivo git clone https://github.com/josuejolon-2022205/ProyectoBIM1_DesarrolloColectivo.git cd ProyectoBIM1_DesarrolloColectivo dir
+cd C:\cmdr_mini
+cd C:\cmder_mini\ProyectoBIM1_DesarrolloColectivo
+cd C:\cmder_mini\ProyectoBIM1_DesarrolloColectivo\ProyectoDesarrolloColectivo
+git add  src/main/java/com/BIM1/ProyectoDesarrolloColectivo/Entity/RegistroMeditacion.java
+git commit -m "refactor:Se cambio la sintaxis de camelcase a SnakCase  "
+git add   src/main/java/com/BIM1/ProyectoDesarrolloColectivo/Exceptions/Excepciones.java
+git commit -m "feat:Se crearon las exceptiones  "
+git add    src/main/java/com/BIM1/ProyectoDesarrolloColectivo/Validator/
+git commit -m "feat:Se crearon las Validaciones"
+cd C:\Users\crisl\OneDrive\Escritorio\Nova_Market_B1
+git branch -b main
+git commit -m "feat: Se agregaron carpetas y archivos base para el proyecto"
+git add  Proyecto_NovaMarket/View/index.html
+git commit -m "feat: Se completo el index"
+git add   Proyecto_NovaMarket/View/Login.html
+git commit -m "feat: Se completo el Login.html"
+git add Proyecto_NovaMarket/View/Login.html
+git commit -m "refactor: Se cambio la sintaxis del Login.html"
+git add  Proyecto_NovaMarket/Style/
+git commit -m "feat: Se añadio css para el index"
+git add     Proyecto_NovaMarket/Style/Login.css
+git commit -m "feat: Se se creo los coleres de Login.css"
+git add Imagenes.jpg/
+git commit -m "feat: Se agrego la carpeta de imagenes"
+git add Proyecto_NovaMarket/View/register.html
+git commit -m "feat: Se agrego el apartado de register"
+git add Proyecto_NovaMarket/Style/index.css
+git commit -m "feat: Se cambio el nombre del style para el index"
+git add Proyecto_NovaMarket/Imagenes.jpg/ 
+git commit -m "feat: Se agregaron las imagenes"
+cd .. 
+cd C:\Users\crisl\OneDrive\Escritorio\Nova_Market
+git branch -m main
+git remote add origin https://github.com/Cristopher2021325/Nova_-Market_B1.git
+git pull --rebase origin main
+code .
+git commit -m "feat se crearon carpetas y documentos para la creacion de la pagina web"
+git add  Proyecto/js/Login.js
+git commit -m "feat se completo el Login.js"
+git add   Proyecto/View/Login.html
+git commit -m "feat se completo el apartado de view"
+git add Proyecto/View/register.html
+git commit -m "feat se completo el apartado de Register.html"
+git addProyecto/View/index.html
+git add Proyecto/View/index.html
+git commit -m "feat se completo el apartado de index"
+git add Proyecto/Style/Login.css
+git commit -m "feat se hizo el apartado de Login.css"
+git add Proyecto/Style/index.css
+git commit -m "feat se hizo el apartado de index.css"
+git add Proyecto/Imagenes.jpg/
+git commit -m "feat: agregaron las imagenes que se utilizaran en el proyecto"
+git add         Manual de usuario Proyecto_Nova_Market_Bim1.pdf
+git add Manual de usuario Proyecto_Nova_Market_Bim1.pdf
+git add "Manual de usuario Proyecto_Nova_Market_Bim1.pdf"
+git commit -m "feat: se agrego el Manual de usuario"
+git add httpsgithub.pdf
+git commit -m "feat: se agrego link del repository"
+git push origin main
+cd
+cd ..
+git add https://github.com/josuejolon-2022205/ProyectoBIM1_DesarrolloColectivo.git
+cls
+git clone https://github.com/josuejolon-2022205/ProyectoBIM1_DesarrolloColectivo.git
+cd ProyectoBIM1_DesarrolloColectivo
+git checkout ft-clopez-2021325
+git add  ProyectoDesarrolloColectivo-Frotend/Styles/index.css
+git commit -m "feat: se completo el apartado de front end- pagina principal"
+git add ProyectoDesarrolloColectivo-Frotend/index/index.html
+git commit -m "feat: se completo el apartado de html-index"
+git add . "feat: se subieron las imagenes que se utilizaron en el proyecto"
+git add . 
+git commit -m "feat: se subieron las imagenes que se utilizaron en el proyecto"
+mkdir Sistema-De-Ventas
+git fetch origin
+git remote add origin https://github.com/Cristopher2021325/Sistema-De-Ventas.git
+cd ProyectoDesarrolloColectivo_BIM2 
+git branch ft-clopez-2021325
+git add ProyectoDesarrolloColectivo/src/main/resources/templates/
+git commit -m "feat:se agrego inde.html"
+git add  ProyectoDesarrolloColectivo/src/main/resources/templates/RegistroMeditacion.html
+git commit -m "feat:se agregó RegistroMeditacion.html"
+git add  ProyectoDesarrolloColectivo/src/main/resources/templates/EntradaDiario.html
+git commit -m "feat:se agregó EntradaDiario.html"
+git add  ProyectoDesarrolloColectivo/src/main/resources/static/
+git commit -m "feat:se agregó EDesarrolloColectivo.css"
+git add  ProyectoDesarrolloColectivo/src/main/resources/static/Index.css
+git commit -m "feat:se agregó index.css"
+git add   ProyectoDesarrolloColectivo/src/main/resources/static/EntradaDiario.css
+git commit -m "feat : se agregó EntradaDiario.css"
+git add   ProyectoDesarrolloColectivo/src/main/resources/static/Base.css
+git commit -m "feat : se agregó Base.css"
+git clone Sistema-De-Ventas
+exit
+git clone https://github.com/Cristopher2021325/Sistema-De-Ventas.git
+cd Sistema-De-Ventas
+git add Sistema-Ventas
+git commit "feat: se subio el proyecto sistema ventas"
+git commit -m "feat: se subio el proyecto sistema ventas"
+git commit "delete: se eliminaron archivos dupliacdos"
+git commit -m "delete: se eliminaron archivos dupliacdos"
+git clone https://github.com/Cristopher2021325/Sistema_Ventas.git
+cd Sistema_Ventas
+git clone https://github.com/Cristopher2021325/Sistema_Ventas1.git
+git Sistema_Ventas1
+cd Sistema_Ventas1
+git checkou -b develop
+git push -u origin ft-clopez-2021325}
+git commit -m "feat: se agrego el proyecto completo ya que mi repositorio anterior se borro "
+git add db_Sistema_Ventas.sql
+git commit -m "feat: Se agrego la base de datos"
+git push
+fit add Document 35.pdf
+git add Document 35.pdf
+git commit -m "feat: se agrego el link de trello"
+gh auth log
+gh auth
+C:/
+gi clone
+git clone
+git config --global --list
+cd C:/
+git switch ft-clopez-2021325
+git push origin ft-clopez-2021325
+cd c:/
+git clone https://github.com/KevinLancerio-2022063/ProyectoDesarrolloColectivo_BIM2.git
+cd C:\ProyectoDesarrolloColectivo_BIM2
+cd C:\Users\crisl\Downloads\Persistencia
+git init 
+git remote add origin https://github.com/Cristopher2021325/Herencia-e-Interfaces-en-TypeScript-.git
+git branch
+git commit -m "Se creo toda la parte de main, con clientes y productos"
+git push origin develop
+git commit -m "Se creo la persistencia"
+git commit -m "Se creo las interfaces del producto y Ciente"
+git commit -m "se añadieron los paquetes"
+git add node_modules/
+git add package-lock.json
+git commit -m "Se agrego el lock.json con los cambio enviados por el profesor"
+git add tsconfig.json
+git commit -m "Se agrego la confi json"
+cd auth login
+cd C:\Users\crisl\OneDrive\Escritorio\ConsumirAPIS
+git remote add origin https://github.com/Cristopher2021325/Postman.git
+git remote -v
+git switch develop
+git switch -c develop
+git add actividad4/
+git add . git commit -m "Primer commit" git push -u origin develop
+git commit -m "Primer commit"
+git add.
+git add  actividad4/postman/Actividad4.postman_collection.json
+git commit -m "Se creo la collection de postman"
+git add actividad4/postman/Actividad4.postman_environment.json
+git commit -m "Se creo el apartado de postman la llave y valores"
+git push origin
+git add ..
+git add..
+git add actividad4/src/
+git commit -m "Se subio el src"
+git add actividad4/src/interfaces.ts
+git commit -m "Se crearon las interfaces"
+git add actividad4/src/rutas.ts
+git commit -m "Se crearon las rutas y atajos"
+git add actividad4/src/servicioExterno.ts
+git commit -m "Se crearonj los servicios"
+git status
+git add actividad4/src/servidor.ts
+git commit -m "Se crearon los servidores"
+git push origin 
+cd C:\Users\crisl\Downloads\Flota_segura-gt
+gh auth login
+git init https://github.com/Cristopher2021325/Sistema-De-Flotas.git
+git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git checkout -b ft-clopez-2021325
+git add . git commit -m "Initial commit"
+git add 
+git commit -m "Initial commit
+git push -u origin ft-clopez-2021325
+git checkout develop
+git checkout -b develop
+git commit -m "Crear rama develop"
+git push -u origin develop
+"git remote set-url origin https://github.com/Cristopher2021325/Sistema-De-Flotas.git
+rmdir /s /q .git
+exit 
+git init
+git remote add origin https://github.com/Cristopher2021325/Sistema-De-Flotas.git
+git add .
