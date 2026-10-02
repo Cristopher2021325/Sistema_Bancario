@@ -109,7 +109,6 @@ git commit -m "feat: se agrego el Manual de usuario"
 git add httpsgithub.pdf
 git commit -m "feat: se agrego link del repository"
 git push origin main
-cd
 cd ..
 git add https://github.com/josuejolon-2022205/ProyectoBIM1_DesarrolloColectivo.git
 cls
@@ -143,7 +142,6 @@ git commit -m "feat : se agregó EntradaDiario.css"
 git add   ProyectoDesarrolloColectivo/src/main/resources/static/Base.css
 git commit -m "feat : se agregó Base.css"
 git clone Sistema-De-Ventas
-exit
 git clone https://github.com/Cristopher2021325/Sistema-De-Ventas.git
 cd Sistema-De-Ventas
 git add Sistema-Ventas
@@ -161,7 +159,6 @@ git push -u origin ft-clopez-2021325}
 git commit -m "feat: se agrego el proyecto completo ya que mi repositorio anterior se borro "
 git add db_Sistema_Ventas.sql
 git commit -m "feat: Se agrego la base de datos"
-git push
 fit add Document 35.pdf
 git add Document 35.pdf
 git commit -m "feat: se agrego el link de trello"
@@ -171,14 +168,10 @@ C:/
 gi clone
 git clone
 git config --global --list
-cd C:/
-git switch ft-clopez-2021325
-git push origin ft-clopez-2021325
 cd c:/
 git clone https://github.com/KevinLancerio-2022063/ProyectoDesarrolloColectivo_BIM2.git
 cd C:\ProyectoDesarrolloColectivo_BIM2
 cd C:\Users\crisl\Downloads\Persistencia
-git init 
 git remote add origin https://github.com/Cristopher2021325/Herencia-e-Interfaces-en-TypeScript-.git
 git branch
 git commit -m "Se creo toda la parte de main, con clientes y productos"
@@ -216,26 +209,70 @@ git add actividad4/src/rutas.ts
 git commit -m "Se crearon las rutas y atajos"
 git add actividad4/src/servicioExterno.ts
 git commit -m "Se crearonj los servicios"
-git status
 git add actividad4/src/servidor.ts
 git commit -m "Se crearon los servidores"
 git push origin 
-cd C:\Users\crisl\Downloads\Flota_segura-gt
-gh auth login
 git init https://github.com/Cristopher2021325/Sistema-De-Flotas.git
 git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-git checkout -b ft-clopez-2021325
 git add . git commit -m "Initial commit"
 git add 
 git commit -m "Initial commit
-git push -u origin ft-clopez-2021325
 git checkout develop
-git checkout -b develop
 git commit -m "Crear rama develop"
-git push -u origin develop
 "git remote set-url origin https://github.com/Cristopher2021325/Sistema-De-Flotas.git
 rmdir /s /q .git
 exit 
-git init
+cd C:\Users\crisl\Downloads\Flota_segura-gt
+rmdir /s /q .git git init
+rmdir
 git remote add origin https://github.com/Cristopher2021325/Sistema-De-Flotas.git
+git push -u origin main --force
+git add src/
+git pus origin ft-clopez-2021325
+git add api/
+git commit -m "se subio la api_/"
+git add C:\Users\crisl\Downloads\Flota_segura-gt
+cd C:\Users\crisl\Downloads\flota-segura
+git add remote add https://github.com/Cristopher2021325/Flotas-gt.git
+git remote git remote -v
+cd C:\Users\crisl\OneDrive\Escritorio\flota-gt
+git remote add origin https://github.com/Cristopher2021325/Flotas-gt.git
+git push origin -M main
+git commit --allow-empty -m "Initial commit"
+git checkout -b ft-clopez-2021325
+ git push -u origin develop
+git push -u origin ft-clopez-2021325
+net stop MySQL95
+net start MySQL95
+git rm -r --cached dist
+git commit -m "Remover carpeta dist"
+git push
+git push origin ft-clopez-2021325
+cd
+cd formulas-app
+exit
+cd C:/
+cd C:\Users\crisl\Downloads\Tarea_taller\formulas-app (2).zip
+cd C:\Users\crisl\Downloads\Tarea_taller\formulas-app (2)
+cd https://github.com/Cristopher2021325/HomeWork3.git
+git init
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/Cristopher2021325/HomeWork3.git
+git push -u origin main
+git checkout -b develop
+git push -m origin develop
+git push -u origin develop´
+git push -u origin develop
+gh auth login 
+git clone https://github.com/lchan-2024540/servitransportes_in5cm.git
+cd C:\Users\crisl\Downloads\servitransportes_in5cm
+git switch ft-clopez-2021325
+git status
+git init 
+git remote add https://github.com/Cristopher2021325/Sistema_Bancario.git
+git remote add origin https://github.com/Cristopher2021325/Sistema_Bancario.git
+gh auth login
+git remote add origin  https://github.com/Cristopher2021325/Sistema_Bancario.git
+git remote set-url origin https://github.com/Cristopher2021325/Sistema_Bancario.git
 git add .
