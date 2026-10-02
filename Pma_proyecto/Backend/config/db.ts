@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+
 // Pool de conexiones a MySQL. decimalNumbers: los DECIMAL (saldos) llegan como número.
 export const pool = mysql.createPool({
   host: process.env.DB_HOST || 'localhost',

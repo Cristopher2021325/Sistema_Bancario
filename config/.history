@@ -85,7 +85,6 @@ cd C:\Users\crisl\OneDrive\Escritorio\Nova_Market
 git branch -m main
 git remote add origin https://github.com/Cristopher2021325/Nova_-Market_B1.git
 git pull --rebase origin main
-code .
 git commit -m "feat se crearon carpetas y documentos para la creacion de la pagina web"
 git add  Proyecto/js/Login.js
 git commit -m "feat se completo el Login.js"
@@ -220,7 +219,6 @@ git commit -m "Initial commit
 git checkout develop
 git commit -m "Crear rama develop"
 "git remote set-url origin https://github.com/Cristopher2021325/Sistema-De-Flotas.git
-rmdir /s /q .git
 exit 
 cd C:\Users\crisl\Downloads\Flota_segura-gt
 rmdir /s /q .git git init
@@ -246,7 +244,6 @@ net stop MySQL95
 net start MySQL95
 git rm -r --cached dist
 git commit -m "Remover carpeta dist"
-git push
 git push origin ft-clopez-2021325
 cd
 cd formulas-app
@@ -255,24 +252,32 @@ cd C:/
 cd C:\Users\crisl\Downloads\Tarea_taller\formulas-app (2).zip
 cd C:\Users\crisl\Downloads\Tarea_taller\formulas-app (2)
 cd https://github.com/Cristopher2021325/HomeWork3.git
-git init
 git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/Cristopher2021325/HomeWork3.git
 git push -u origin main
-git checkout -b develop
 git push -m origin develop
 git push -u origin develop´
-git push -u origin develop
 gh auth login 
 git clone https://github.com/lchan-2024540/servitransportes_in5cm.git
 cd C:\Users\crisl\Downloads\servitransportes_in5cm
 git switch ft-clopez-2021325
-git status
 git init 
 git remote add https://github.com/Cristopher2021325/Sistema_Bancario.git
-git remote add origin https://github.com/Cristopher2021325/Sistema_Bancario.git
 gh auth login
 git remote add origin  https://github.com/Cristopher2021325/Sistema_Bancario.git
 git remote set-url origin https://github.com/Cristopher2021325/Sistema_Bancario.git
+git commit -m "feat: initial commit"
+git push -u origin develop
+cd C:\cmder_mini\Pma_proyecto\Backend
+git init
+git remote add origin https://github.com/Cristopher2021325/Sistema_Bancario.git
+git checkout -b develop
+rmdir /s /q .git
+code .
+git status
+cd C:\cmder_mini\Pma_proyecto
+git add
 git add .
+git commit -m "feat: subiendo Pma_proyecto y Backend"
+git push
