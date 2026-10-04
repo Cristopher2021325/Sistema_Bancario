@@ -1,0 +1,65 @@
+:root { --azul:#2E3A6E; --azul2:#3d4d8f; --oro:#C9A227; --claro:#DCE8F7; --gris:#f4f6fb; --rojo:#b3261e; --verde:#1b7a3d; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: "Segoe UI", Roboto, Arial, sans-serif; background:var(--gris); color:#1c1f2a; font-size:15px; }
+h2 { color:var(--azul); margin:0 0 14px; }
+h3 { margin:0 0 12px; color:var(--azul); }
+
+/* Login */
+.login-fondo { min-height:100vh; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--azul),var(--azul2)); padding:16px; }
+.login-caja { background:#fff; padding:32px; border-radius:12px; width:100%; max-width:380px; display:flex; flex-direction:column; gap:14px; border-top:5px solid var(--oro); }
+.login-caja h1 { margin:0; color:var(--azul); font-size:26px; }
+.sub { margin:0; color:#666; font-size:13px; }
+
+/* Estructura */
+.barra { display:flex; align-items:center; gap:18px; background:var(--azul); color:#fff; padding:10px 22px; flex-wrap:wrap; border-bottom:4px solid var(--oro); }
+.marca { font-weight:700; font-size:18px; letter-spacing:.5px; }
+.barra nav { display:flex; gap:4px; flex:1; flex-wrap:wrap; }
+.barra nav a { color:#dfe6f7; text-decoration:none; padding:8px 12px; border-radius:6px; }
+.barra nav a:hover, .barra nav a.activo { background:rgba(255,255,255,.18); color:#fff; }
+.usuario { font-size:13px; opacity:.9; }
+.contenido { max-width:1150px; margin:0 auto; padding:22px 16px 40px; }
+
+/* Formularios */
+label { display:flex; flex-direction:column; gap:5px; font-size:13px; font-weight:600; color:#333; }
+input, select { padding:9px 10px; border:1px solid #b8c0d4; border-radius:6px; font-size:14px; background:#fff; font-family:inherit; }
+input:focus, select:focus { outline:2px solid var(--azul2); border-color:var(--azul2); }
+.panel { background:#fff; border-radius:10px; padding:18px; margin-bottom:18px; display:flex; flex-direction:column; gap:12px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+.tres-col { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; align-items:start; }
+.filtros { flex-direction:row; flex-wrap:wrap; align-items:flex-end; }
+.filtros label { min-width:150px; }
+.acciones { display:flex; gap:10px; }
+.barra-herramientas { display:flex; gap:10px; margin-bottom:14px; flex-wrap:wrap; }
+.buscar { flex:1; min-width:220px; }
+
+/* Botones */
+.btn { padding:9px 16px; border:1px solid var(--azul); background:#fff; color:var(--azul); border-radius:6px; cursor:pointer; font-size:14px; text-decoration:none; font-family:inherit; display:inline-block; }
+.btn:hover { background:var(--claro); }
+.btn.primario { background:var(--azul); color:#fff; }
+.btn.primario:hover { background:var(--azul2); }
+.btn.claro { background:transparent; color:#fff; border-color:rgba(255,255,255,.6); }
+.btn.claro:hover { background:rgba(255,255,255,.15); }
+.btn.peligro { border-color:var(--rojo); color:var(--rojo); }
+.btn.peligro:hover { background:#fde8e6; }
+.btn.chico { padding:5px 10px; font-size:12.5px; }
+.btn:disabled { opacity:.6; cursor:wait; }
+
+/* Tablas y avisos */
+.tabla-caja { background:#fff; border-radius:10px; overflow-x:auto; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+table { width:100%; border-collapse:collapse; }
+th { background:var(--azul); color:#fff; text-align:left; padding:10px 12px; font-size:13px; white-space:nowrap; }
+td { padding:9px 12px; border-bottom:1px solid #e6eaf3; font-size:14px; }
+tr:hover td { background:#f7f9fd; }
+.num { text-align:right; white-space:nowrap; }
+.celda-acciones { display:flex; gap:6px; flex-wrap:wrap; }
+.vacio { text-align:center; color:#777; padding:22px; }
+.badge { padding:2px 9px; border-radius:20px; font-size:12px; background:#dff3e5; color:var(--verde); font-weight:600; }
+.badge.inactivo { background:#fde8e6; color:var(--rojo); }
+.alert { padding:10px 14px; border-radius:6px; font-size:14px; }
+.alert.ok { background:#dff3e5; color:var(--verde); border:1px solid #a9d9b7; }
+.alert.error { background:#fde8e6; color:var(--rojo); border:1px solid #f0b4af; }
+.nota { color:#666; font-size:13px; margin-top:12px; }
+.tarjetas { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-bottom:18px; }
+.tarjeta { background:#fff; border-radius:10px; padding:16px; box-shadow:0 1px 4px rgba(0,0,0,.08); border-left:5px solid var(--oro); display:flex; flex-direction:column; gap:6px; }
+.tarjeta span { color:#666; font-size:13px; }
+.tarjeta strong { font-size:24px; color:var(--azul); }
