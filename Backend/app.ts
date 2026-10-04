@@ -9,6 +9,7 @@ import { depositosRoutes, retirosRoutes } from './src/modules/operaciones/operac
 import transferenciasRoutes from './src/modules/transferencias/transferencias.routes';
 import movimientosRoutes from './src/modules/movimientos/movimientos.routes';
 import reportesRoutes from './src/modules/reportes/reportes.routes';
+import tiposRoutes from './src/modules/tipos/tipos.routes';
 import { verificarToken } from './src/middlewares/auth';
 
 const app = express();
@@ -25,7 +26,7 @@ app.get('/api/health', async (_req, res) => {
   }
 });
 
-app.use('/api/auth', authRoutes);                                
+app.use('/api/auth', authRoutes);
 app.use('/api/clientes', verificarToken, clientesRoutes);
 app.use('/api/cuentas', verificarToken, cuentasRoutes);
 app.use('/api/depositos', verificarToken, depositosRoutes);
@@ -33,6 +34,7 @@ app.use('/api/retiros', verificarToken, retirosRoutes);
 app.use('/api/transferencias', verificarToken, transferenciasRoutes);
 app.use('/api/movimientos', verificarToken, movimientosRoutes);
 app.use('/api/reportes', verificarToken, reportesRoutes);
+app.use('/api/tipos-cuenta', verificarToken, tiposRoutes);
 
 app.use(noEncontrada);
 app.use(errorHandler);
