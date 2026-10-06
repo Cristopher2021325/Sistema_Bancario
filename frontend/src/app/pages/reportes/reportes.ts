@@ -25,10 +25,10 @@ import { etiquetaTipo, mensajeError } from '../../core/utils';
       </div>
       <div class="tabla-caja">
         <table>
-          <thead><tr><th>Tipo de operación</th><th class="num">Cantidad</th><th class="num">Monto total</th></tr></thead>
+          <thead><tr><th>Tipo de operación</th><th class="num">Cantidad</th><th class="num">Monto total</th><th>Proporción</th></tr></thead>
           <tbody>
             @for (o of r.operaciones; track o.tipo) {
-              <tr><td>{{ etiqueta(o.tipo) }}</td><td class="num">{{ o.cantidad }}</td><td class="num">Q {{ o.total | number:'1.2-2' }}</td></tr>
+              <tr><td>{{ etiqueta(o.tipo) }}</td><td class="num">{{ o.cantidad }}</td><td class="num">Q {{ o.total | number:'1.2-2' }}</td><td><div class="barra-mini"><span [style.width.%]="pct(o.total)"></span></div></td></tr>
             }
           </tbody>
         </table>
@@ -42,6 +42,11 @@ export class ReportesPage implements OnInit {
   desde = ''; hasta = ''; error = '';
 
   ngOnInit() { this.cargar(); }
+
+  pct(t: number) {
+    const max = Math.max(1, ...(this.r?.operaciones.map(o => o.total) ?? []));
+    return (t / max) * 100;
+  }
 
   cargar() {
     this.error = '';
