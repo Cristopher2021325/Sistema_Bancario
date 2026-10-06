@@ -47,7 +47,7 @@ const vacio = () => ({ documento: '', nombres: '', apellidos: '', correo: '', te
             <tr>
               <td>{{ c.id_cliente }}</td>
               <td>{{ c.documento }}</td>
-              <td>{{ c.nombres }} {{ c.apellidos }}</td>
+              <td><div class="persona"><span class="avatar">{{ c.nombres[0] }}{{ c.apellidos[0] }}</span>{{ c.nombres }} {{ c.apellidos }}</div></td>
               <td>{{ c.correo }}</td>
               <td>{{ c.telefono }}</td>
               <td><span class="badge" [class.inactivo]="c.estado !== 'ACTIVO'">{{ c.estado }}</span></td>
