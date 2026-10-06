@@ -38,8 +38,8 @@ import { TIPOS_MOVIMIENTO, etiquetaTipo, mensajeError } from '../../core/utils';
             <tr>
               <td>{{ m.fecha | date:'dd/MM/yyyy HH:mm' }}</td>
               <td>{{ m.numero_cuenta }}</td>
-              <td>{{ etiqueta(m.tipo) }}</td>
-              <td class="num">Q {{ m.monto | number:'1.2-2' }}</td>
+              <td><span class="tipo">{{ etiqueta(m.tipo) }}</span></td>
+              <td class="num" [class.ingreso]="esIngreso(m.tipo)" [class.egreso]="!esIngreso(m.tipo)">{{ esIngreso(m.tipo) ? '+' : '−' }} Q {{ m.monto | number:'1.2-2' }}</td>
               <td class="num">Q {{ m.saldo_resultante | number:'1.2-2' }}</td>
               <td>{{ m.cuenta_relacionada }}</td>
               <td>{{ m.usuario }}</td>
@@ -60,6 +60,7 @@ export class MovimientosPage implements OnInit {
   cuentas: Cuenta[] = [];
   tipos = TIPOS_MOVIMIENTO;
   etiqueta = etiquetaTipo;
+  esIngreso = (t: string) => t === 'DEPOSITO' || t === 'TRANSFERENCIA_RECIBIDA';
   idCuenta: number | null = null;
   tipo = ''; desde = ''; hasta = ''; error = '';
 
