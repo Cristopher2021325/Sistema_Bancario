@@ -9,18 +9,29 @@ import { mensajeError } from '../../core/utils';
   imports: [FormsModule],
   template: `
     <div class="login-fondo">
-      <form class="login-caja" (ngSubmit)="ingresar()">
-        <h1>Sistema Bancario</h1>
-        <p class="sub">Fundación Kinal · Taller 2 (sistema académico, datos ficticios)</p>
-        @if (error) { <div class="alert error">{{ error }}</div> }
-        <label>Usuario
-          <input name="username" [(ngModel)]="username" autocomplete="username" autofocus>
-        </label>
-        <label>Contraseña
-          <input name="password" type="password" [(ngModel)]="password" autocomplete="current-password">
-        </label>
-        <button class="btn primario" type="submit" [disabled]="cargando">{{ cargando ? 'Ingresando...' : 'Ingresar' }}</button>
-      </form>
+      <section class="login-marca">
+        <div class="marca"><span class="logo">K</span><strong>Banco Kinal</strong></div>
+        <div>
+          <h1>Clientes, cuentas y operaciones en un solo lugar.</h1>
+          <p>Sistema académico de Fundación Kinal. Todos los datos son ficticios.</p>
+        </div>
+      </section>
+      <section class="login-lado">
+        <form class="login-caja" (ngSubmit)="ingresar()">
+          <div>
+            <h2>Iniciar sesión</h2>
+            <p class="sub">Ingrese con su usuario y contraseña.</p>
+          </div>
+          @if (error) { <div class="alert error">{{ error }}</div> }
+          <label>Usuario
+            <input name="username" [(ngModel)]="username" autocomplete="username" autofocus>
+          </label>
+          <label>Contraseña
+            <input name="password" type="password" [(ngModel)]="password" autocomplete="current-password">
+          </label>
+          <button class="btn primario" type="submit" [disabled]="cargando">{{ cargando ? 'Ingresando...' : 'Ingresar' }}</button>
+        </form>
+      </section>
     </div>`,
 })
 export class LoginPage {
